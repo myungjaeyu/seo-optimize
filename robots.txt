@@ -1,0 +1,6 @@
+# Robots exclusion standard: https://en.wikipedia.org/wiki/Robots_exclusion_standard#About_the_standard
+
+User-agent: *
+Allow: /
+
+Sitemap: https://www.example.com/sitemap.xml
