@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
 <!-- Sitemaps XML format: https://www.sitemaps.org/protocol.html -->
 
    <url>
@@ -12,6 +13,34 @@
       <changefreq>weekly</changefreq>
 
       <priority>1.0</priority>
+
+   </url>
+
+   <url>
+
+      <!-- video sitemap alternatives: https://support.google.com/webmasters/answer/80471 -->
+
+      <loc>https://myungjaeyu.github.io/seo-template/video.html</loc>
+
+      <video:video>
+
+        <video:title>SEO Template Title: Video</video:title>
+
+        <video:description>This spring, Google is introducing the self-driving bicycle in Amsterdam, the world’s premier cycling city. The Dutch cycle more than any other nation in the world, almost 900 kilometres per year per person, amounting to over 15 billion kilometres annually</video:description>
+
+        <video:thumbnail_loc>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/images/ForBiggerFun.jpg</video:thumbnail_loc>
+
+        <video:content_loc>https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/ForBiggerFun.mp4</video:content_loc>
+
+        <video:publication_date>2019-08-23</video:publication_date>
+
+        <changefreq>weekly</changefreq>
+
+        <priority>1.0</priority>
+
+        <video:live>no</video:live>
+
+      </video:video>
 
    </url>
 
